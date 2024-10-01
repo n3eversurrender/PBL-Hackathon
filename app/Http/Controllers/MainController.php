@@ -16,4 +16,10 @@ class MainController extends Controller
         return view('guest/Home', [
         ]);
     }
+
+    public function about()
+    {
+        return view('guest/About', [
+        ]);
+    }
 }
